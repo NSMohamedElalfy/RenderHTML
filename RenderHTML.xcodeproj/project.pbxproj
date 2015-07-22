@@ -13,6 +13,7 @@
 		B1C352221B59F4B000DE9C60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C352211B59F4B000DE9C60 /* Images.xcassets */; };
 		B1C352251B59F4B000DE9C60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C352231B59F4B000DE9C60 /* LaunchScreen.xib */; };
 		B1C352311B59F4B000DE9C60 /* RehnderHTMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C352301B59F4B000DE9C60 /* RehnderHTMLTests.swift */; };
+		E1543FF93DDFCAFEC369D169 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5971B95A22FCBEC3D364F4E /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B1C352151B59F4B000DE9C60 /* RehnderHTML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RehnderHTML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		706AFE9C7CF14ED36AEF247A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C352151B59F4B000DE9C60 /* RenderHTML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenderHTML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C352191B59F4B000DE9C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1C3521A1B59F4B000DE9C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1C3521C1B59F4B000DE9C60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1C3521F1B59F4B000DE9C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1C352211B59F4B000DE9C60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B1C352241B59F4B000DE9C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B1C3522A1B59F4B000DE9C60 /* RehnderHTMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RehnderHTMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C3522A1B59F4B000DE9C60 /* RenderHTMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenderHTMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C3522F1B59F4B000DE9C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1C352301B59F4B000DE9C60 /* RehnderHTMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehnderHTMLTests.swift; sourceTree = "<group>"; };
+		B1C3523A1B5A147000DE9C60 /* RehnderHTML-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RehnderHTML-Bridging-Header.h"; sourceTree = "<group>"; };
+		D5971B95A22FCBEC3D364F4E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BF0EADD2AB847E55BBDFCE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1543FF93DDFCAFEC369D169 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,14 +68,16 @@
 				B1C352171B59F4B000DE9C60 /* RehnderHTML */,
 				B1C3522D1B59F4B000DE9C60 /* RehnderHTMLTests */,
 				B1C352161B59F4B000DE9C60 /* Products */,
+				D4E482ED05E6F56E4573082F /* Pods */,
+				D251A1083C2A942605A07582 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B1C352161B59F4B000DE9C60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1C352151B59F4B000DE9C60 /* RehnderHTML.app */,
-				B1C3522A1B59F4B000DE9C60 /* RehnderHTMLTests.xctest */,
+				B1C352151B59F4B000DE9C60 /* RenderHTML.app */,
+				B1C3522A1B59F4B000DE9C60 /* RenderHTMLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +91,7 @@
 				B1C352211B59F4B000DE9C60 /* Images.xcassets */,
 				B1C352231B59F4B000DE9C60 /* LaunchScreen.xib */,
 				B1C352181B59F4B000DE9C60 /* Supporting Files */,
+				B1C3523A1B5A147000DE9C60 /* RehnderHTML-Bridging-Header.h */,
 			);
 			path = RehnderHTML;
 			sourceTree = "<group>";
@@ -112,29 +121,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D251A1083C2A942605A07582 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5971B95A22FCBEC3D364F4E /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4E482ED05E6F56E4573082F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				706AFE9C7CF14ED36AEF247A /* Pods.debug.xcconfig */,
+				F0BF0EADD2AB847E55BBDFCE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1C352141B59F4B000DE9C60 /* RehnderHTML */ = {
+		B1C352141B59F4B000DE9C60 /* RenderHTML */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1C352341B59F4B000DE9C60 /* Build configuration list for PBXNativeTarget "RehnderHTML" */;
+			buildConfigurationList = B1C352341B59F4B000DE9C60 /* Build configuration list for PBXNativeTarget "RenderHTML" */;
 			buildPhases = (
+				051E7D641F97B220E0BDD559 /* Check Pods Manifest.lock */,
 				B1C352111B59F4B000DE9C60 /* Sources */,
 				B1C352121B59F4B000DE9C60 /* Frameworks */,
 				B1C352131B59F4B000DE9C60 /* Resources */,
+				76D5AB6F86BA56DEE16EEBB7 /* Embed Pods Frameworks */,
+				0B22EC3A411634395D004D02 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RehnderHTML;
+			name = RenderHTML;
 			productName = RehnderHTML;
-			productReference = B1C352151B59F4B000DE9C60 /* RehnderHTML.app */;
+			productReference = B1C352151B59F4B000DE9C60 /* RenderHTML.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B1C352291B59F4B000DE9C60 /* RehnderHTMLTests */ = {
+		B1C352291B59F4B000DE9C60 /* RenderHTMLTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1C352371B59F4B000DE9C60 /* Build configuration list for PBXNativeTarget "RehnderHTMLTests" */;
+			buildConfigurationList = B1C352371B59F4B000DE9C60 /* Build configuration list for PBXNativeTarget "RenderHTMLTests" */;
 			buildPhases = (
 				B1C352261B59F4B000DE9C60 /* Sources */,
 				B1C352271B59F4B000DE9C60 /* Frameworks */,
@@ -145,9 +174,9 @@
 			dependencies = (
 				B1C3522C1B59F4B000DE9C60 /* PBXTargetDependency */,
 			);
-			name = RehnderHTMLTests;
+			name = RenderHTMLTests;
 			productName = RehnderHTMLTests;
-			productReference = B1C3522A1B59F4B000DE9C60 /* RehnderHTMLTests.xctest */;
+			productReference = B1C3522A1B59F4B000DE9C60 /* RenderHTMLTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +197,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B1C352101B59F4B000DE9C60 /* Build configuration list for PBXProject "RehnderHTML" */;
+			buildConfigurationList = B1C352101B59F4B000DE9C60 /* Build configuration list for PBXProject "RenderHTML" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +210,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1C352141B59F4B000DE9C60 /* RehnderHTML */,
-				B1C352291B59F4B000DE9C60 /* RehnderHTMLTests */,
+				B1C352141B59F4B000DE9C60 /* RenderHTML */,
+				B1C352291B59F4B000DE9C60 /* RenderHTMLTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,6 +236,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		051E7D641F97B220E0BDD559 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0B22EC3A411634395D004D02 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76D5AB6F86BA56DEE16EEBB7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1C352111B59F4B000DE9C60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -230,7 +307,7 @@
 /* Begin PBXTargetDependency section */
 		B1C3522C1B59F4B000DE9C60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B1C352141B59F4B000DE9C60 /* RehnderHTML */;
+			target = B1C352141B59F4B000DE9C60 /* RenderHTML */;
 			targetProxy = B1C3522B1B59F4B000DE9C60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -338,21 +415,28 @@
 		};
 		B1C352351B59F4B000DE9C60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706AFE9C7CF14ED36AEF247A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = RehnderHTML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RenderHTML;
+				SWIFT_OBJC_BRIDGING_HEADER = "RehnderHTML/RehnderHTML-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B1C352361B59F4B000DE9C60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0BF0EADD2AB847E55BBDFCE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = RehnderHTML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RenderHTML;
+				SWIFT_OBJC_BRIDGING_HEADER = "RehnderHTML/RehnderHTML-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -370,7 +454,7 @@
 				);
 				INFOPLIST_FILE = RehnderHTMLTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RenderHTMLTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RehnderHTML.app/RehnderHTML";
 			};
 			name = Debug;
@@ -385,7 +469,7 @@
 				);
 				INFOPLIST_FILE = RehnderHTMLTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RenderHTMLTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RehnderHTML.app/RehnderHTML";
 			};
 			name = Release;
@@ -393,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1C352101B59F4B000DE9C60 /* Build configuration list for PBXProject "RehnderHTML" */ = {
+		B1C352101B59F4B000DE9C60 /* Build configuration list for PBXProject "RenderHTML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1C352321B59F4B000DE9C60 /* Debug */,
@@ -402,21 +486,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1C352341B59F4B000DE9C60 /* Build configuration list for PBXNativeTarget "RehnderHTML" */ = {
+		B1C352341B59F4B000DE9C60 /* Build configuration list for PBXNativeTarget "RenderHTML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1C352351B59F4B000DE9C60 /* Debug */,
 				B1C352361B59F4B000DE9C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B1C352371B59F4B000DE9C60 /* Build configuration list for PBXNativeTarget "RehnderHTMLTests" */ = {
+		B1C352371B59F4B000DE9C60 /* Build configuration list for PBXNativeTarget "RenderHTMLTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1C352381B59F4B000DE9C60 /* Debug */,
 				B1C352391B59F4B000DE9C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
